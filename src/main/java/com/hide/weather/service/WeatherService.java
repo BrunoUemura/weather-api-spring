@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class WeatherService {
 
     public WeatherResponse findByCity(String city) {
-        String externalAPIUrl = "http://apiurl";
+        String externalAPIUrl = "http://api.url";
         RestTemplate restTemplate = new RestTemplate();
         Weather weather = restTemplate.getForObject(externalAPIUrl, Weather.class);
 

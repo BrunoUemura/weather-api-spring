@@ -4,32 +4,34 @@ public class WeatherResponse {
     public String name;
     public String region;
     public String country;
-    public String localtime;
-    public double temp_c;
-    public double temp_f;
-    public double feelslike_c;
-    public double feelslike_f;
+    public String localTime;
+    public double temperatureInC;
+    public double temperatureInF;
+    public double feelsLikeInC;
+    public double feelsLikeInF;
     public String condition;
     public double humidity;
 
-    public WeatherResponse(String name,
-                           String region,
-                           String country,
-                           String localtime,
-                           double temp_c,
-                           double temp_f,
-                           double feelslike_c,
-                           double feelslike_f,
-                           String condition,
-                           double humidity) {
+    public WeatherResponse(
+            String name,
+            String region,
+            String country,
+            String localTime,
+            double temperatureInC,
+            double temperatureInF,
+            double feelsLikeInC,
+            double feelsLikeInF,
+            String condition,
+            double humidity
+    ) {
         this.name = name;
         this.region = region;
         this.country = country;
-        this.localtime = localtime;
-        this.temp_c = temp_c;
-        this.temp_f = temp_f;
-        this.feelslike_c = feelslike_c;
-        this.feelslike_f = feelslike_f;
+        this.localTime = localTime;
+        this.temperatureInC = temperatureInC;
+        this.temperatureInF = temperatureInF;
+        this.feelsLikeInC = feelsLikeInC;
+        this.feelsLikeInF = feelsLikeInF;
         this.condition = condition;
         this.humidity = humidity;
     }
