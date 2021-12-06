@@ -13,16 +13,16 @@ public class WeatherResponse {
     public double humidity;
 
     public WeatherResponse(
-            String name,
-            String region,
-            String country,
-            String localTime,
-            double temperatureInC,
-            double temperatureInF,
-            double feelsLikeInC,
-            double feelsLikeInF,
-            String condition,
-            double humidity
+        String name,
+        String region,
+        String country,
+        String localTime,
+        double temperatureInC,
+        double temperatureInF,
+        double feelsLikeInC,
+        double feelsLikeInF,
+        String condition,
+        double humidity
     ) {
         this.name = name;
         this.region = region;

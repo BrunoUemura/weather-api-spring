@@ -5,6 +5,7 @@ import com.hide.weather.model.BaseResponse;
 import com.hide.weather.model.WeatherResponse;
 import com.hide.weather.service.WeatherService;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

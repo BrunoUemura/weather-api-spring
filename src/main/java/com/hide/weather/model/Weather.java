@@ -1,15 +1,10 @@
 package com.hide.weather.model;
 
+import lombok.Data;
+
+@Data
 public class Weather {
     public Location location;
     public Current current;
-
-    public Location getLocation() {
-        return location;
-    }
-
-    public Current getCurrent() {
-        return current;
-    }
 }
 
